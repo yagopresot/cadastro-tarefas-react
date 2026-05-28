@@ -1,0 +1,30 @@
+{
+  "tarefas": [
+    {
+      "id": "1",
+      "titulo": "Estudar React",
+      "descricao": "Revisar hooks useState e useEffect",
+      "prioridade": "alta",
+      "status": null,
+      "prazo": "2026-06-15",
+      "concluida": false
+    },
+    {
+      "id": "2",
+      "titulo": "Configurar JSON Server",
+      "descricao": "Criar db.json e testar endpoints da API",
+      "prioridade": "media",
+      "status": "concluida",
+      "concluida": true
+    },
+    {
+      "titulo": "Medico",
+      "descricao": "Levar exames ",
+      "prioridade": "media",
+      "status": "pendente",
+      "prazo": "2026-06-18",
+      "id": "43MVPmFSFYo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
