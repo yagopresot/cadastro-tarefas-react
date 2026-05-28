@@ -2,6 +2,10 @@
   "name": "react-api-json-server",
   "private": true,
   "version": "0.0.0",
+  "authors": [
+    "Yago Presot",
+    "Gabriel Abreu"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
