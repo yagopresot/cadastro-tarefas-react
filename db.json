@@ -5,9 +5,9 @@
       "titulo": "Estudar React",
       "descricao": "Revisar hooks useState e useEffect",
       "prioridade": "alta",
-      "status": null,
+      "status": "concluida",
       "prazo": "2026-06-15",
-      "concluida": false
+      "concluida": true
     },
     {
       "id": "2",
@@ -18,12 +18,13 @@
       "concluida": true
     },
     {
-      "titulo": "Medico",
-      "descricao": "Levar exames ",
+      "titulo": "estudar ",
+      "descricao": "conversar com os amigos ",
       "prioridade": "media",
-      "status": "pendente",
-      "prazo": "2026-06-18",
-      "id": "43MVPmFSFYo"
+      "prazo": "2026-05-31",
+      "status": "nao_iniciada",
+      "concluida": false,
+      "id": "RPWX78c5xtw"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
