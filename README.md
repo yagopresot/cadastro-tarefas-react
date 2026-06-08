@@ -10,6 +10,8 @@
 
 Cadastro, listagem e organização de tarefas em **três colunas** — com tema claro/escuro, prioridades, prazos e status opcional.
 
+**Repositório:** [github.com/yagopresot/cadastro-tarefas-react](https://github.com/yagopresot/cadastro-tarefas-react)
+
 [Funcionalidades](#-funcionalidades) · [Como executar](#-como-executar) · [API](#-api-rest) · [Estrutura](#-estrutura-do-projeto)
 
 </div>
@@ -87,8 +89,8 @@ flowchart LR
 Clone o repositório e entre na pasta:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO
+git clone https://github.com/yagopresot/cadastro-tarefas-react.git
+cd cadastro-tarefas-react
 ```
 
 </td>
@@ -184,14 +186,26 @@ Acesse: `http://localhost:5173`
 ## Estrutura do projeto
 
 ```
-React API JSON Server/
-├── db.json              # Banco fake (JSON Server)
+cadastro-tarefas-react/
+├── db.json                    # Banco fake (JSON Server)
 ├── public/
 ├── src/
-│   ├── App.jsx          # Componente principal
-│   ├── App.css          # Estilos da aplicação
-│   ├── index.css        # Variáveis e tema global
-│   └── main.jsx         # Entrada do React
+│   ├── components/
+│   │   ├── Cabecalho/         # Cabeçalho e botão de tema
+│   │   ├── FormularioTarefa/  # Formulário de nova tarefa
+│   │   ├── ListaTarefas/      # Cards em andamento
+│   │   ├── ListaConcluidas/   # Coluna de concluídas
+│   │   ├── Tema/              # Ícones sol e lua
+│   │   └── UI/                # Badge de prioridade
+│   ├── hooks/
+│   │   ├── useTarefas.js      # CRUD e API
+│   │   └── useTema.js         # Tema claro/escuro
+│   ├── utils/
+│   │   └── helpers.js         # Formatação e status
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
 ├── index.html
 ├── package.json
 └── README.md
@@ -210,20 +224,13 @@ React API JSON Server/
 - [x] Cadastro via `POST`
 - [x] Atualização da lista após cadastro
 - [x] Interface organizada
-- [ ] Publicação no GitHub *(substitua pelo link do seu repositório)*
+- [x] Publicação no GitHub — [cadastro-tarefas-react](https://github.com/yagopresot/cadastro-tarefas-react)
 
 ---
 
-## Publicar no GitHub
+## Repositório
 
-```bash
-git init
-git add .
-git commit -m "feat: aplicação de cadastro de tarefas com React e JSON Server"
-git branch -M main
-git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-git push -u origin main
-```
+🔗 **https://github.com/yagopresot/cadastro-tarefas-react**
 
 ---
 
